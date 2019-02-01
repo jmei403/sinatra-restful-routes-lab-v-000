@@ -1,4 +1,4 @@
 <ol><% @recipes.each do |recipe| %>
-<li><a href="/recipes/#{@recipe.id}"><%= recipe.name %></a></li>
+<li><a href="/recipes/<%= #{@recipe.id} %>"><%= recipe.name %></a></li>
 <% end %>
 </ol>
